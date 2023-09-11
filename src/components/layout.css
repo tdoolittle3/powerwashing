@@ -24,6 +24,7 @@
   --size-content: 54rem;
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
+  
 }
 html {
   -webkit-text-size-adjust: 100%;
@@ -32,6 +33,7 @@ html {
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
+  
 }
 body {
   -moz-osx-font-smoothing: grayscale;
@@ -42,6 +44,14 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
+  height: 100%;
+}
+.gradient-background {
+  background: 
+  linear-gradient(to left, white, #268cd7),
+  linear-gradient(to left, white, #268cd7);
+background-size: 100% 100%, 100% 100%;
+background-repeat: repeat;
 }
 a {
   background-color: transparent;
