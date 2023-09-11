@@ -1,9 +1,12 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "pensacola-pressurewashing",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Pensacola pressurewashing business website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Thomas Doolittle <tdoolittle3@gmail.com>",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "gatsby": "^5.12.4",
     "gatsby-plugin-image": "^3.12.0",
