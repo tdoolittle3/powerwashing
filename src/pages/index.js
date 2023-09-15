@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
+import ModalButtonMui from "../components/modal"
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
@@ -23,7 +24,7 @@ const IndexPage = () => (
       <h1>
         Your trusted <b>Pressurewashing Service</b>
       </h1>
-      
+      <ModalButtonMui />
     </div>
   </Layout>
 )
